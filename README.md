@@ -13,12 +13,13 @@ Un endpoint para crear un diccionario en donde las llaves de dicho diccionario s
 
 "user_email": "email",
 
-"age" (optiona): age,
+"age" (optional): age,
 
 "recommendations": list[str],
 
 "ZIP" (optional): ZIP
 }
+
 
 Cada vez que se haga un request a este endpoint, se debe actualizar el diccionario. Hint: Definir un diccionario vacío fuera del endpoint. La respuesta de este endpoint debe enviar el id del usuario creado y una descripción de usuario creado exitosamente.
 
